@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zestoai"
+version = "0.1.0"
+description = "Simplifying HR compliance"
+authors = ["Helen <helkochetkova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-index = "^0.10.13.post1"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
